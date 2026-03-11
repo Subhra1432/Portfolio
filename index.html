@@ -227,17 +227,6 @@ h2.st span{color:var(--primary)}
 .pub-lnk{font-size:.62rem;padding:.22rem .7rem;border:1px solid rgba(0,245,212,.2);color:var(--primary);text-decoration:none;transition:all .3s}
 .pub-lnk:hover{background:rgba(0,245,212,.08)}
 
-/* ACHIEVEMENTS */
-.ach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem}
-.ach-card{padding:1.8rem;border:1px solid var(--card-border);background:var(--card);text-align:center;transition:all .4s;position:relative;overflow:hidden}
-.ach-card::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(255,214,10,.05),transparent 60%);opacity:0;transition:opacity .4s}
-.ach-card:hover::before{opacity:1}
-.ach-card:hover{border-color:rgba(255,214,10,.2);transform:translateY(-5px);box-shadow:0 20px 40px rgba(0,0,0,.3)}
-.ach-ico{font-size:2.3rem;margin-bottom:.9rem;display:block}
-.ach-title{font-family:'Syne',sans-serif;font-weight:700;font-size:.95rem;margin-bottom:.35rem}
-.ach-org{color:var(--accent3);font-size:.7rem;letter-spacing:1px;margin-bottom:.5rem}
-.ach-desc{color:var(--text-dim);font-size:.7rem;line-height:1.7}
-
 /* CERTIFICATIONS */
 .cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem}
 .cert-card{padding:1.6rem;border:1px solid var(--card-border);background:var(--card);display:flex;gap:1.3rem;align-items:center;transition:all .4s}
